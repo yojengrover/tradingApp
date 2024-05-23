@@ -1,0 +1,133 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+  }
+  
+  .icon {
+    height: 24px;
+    width: 24px;
+    color: #5F5D9C;
+  }
+  
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #5F5D9C;
+  }
+  
+  .subtitle {
+    font-size: 0.875rem;
+    color: white;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 48px 16px;
+  }
+  
+  .welcome-card,
+  .why-us-card {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-card {
+    background-color: white;
+  }
+  
+  .welcome-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5F5D9C;
+  }
+  
+  .welcome-subtitle {
+    font-size: 0.875rem;
+    color: white;
+  }
+  
+  .button-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .button-primary {
+    background-color: #5F5D9C;
+    color: white;
+  }
+  
+  .button-primary:hover {
+    background-color: white;
+    color: #5F5D9C;
+  }
+  
+  .button-secondary {
+    border: 2px solid #5F5D9C;
+    color: #5F5D9C;
+  }
+  
+  .button-secondary:hover {
+    background-color: #5F5D9C;
+    color: white;
+  }
+  
+  .button-link {
+    color: white;
+  }
+  
+  .button-link:hover {
+    text-decoration: underline;
+  }
+  
+  .why-us-card {
+    background-color: #5F5D9C;
+    color: white;
+  }
+  
+  .why-us-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .features-list {
+    font-size: 0.875rem;
+  }
+  
+  .icon-check {
+    margin-right: 8px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+  }
+  
+  .footer {
+    background-color: #5F5D9C;
+    padding: 16px;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-text {
+    font-size: 0.875rem;
+  }
+  
