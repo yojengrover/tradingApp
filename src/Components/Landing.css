@@ -69,21 +69,37 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
   }
   
   .button-primary {
     background-color: #5F5D9C;
     color: white;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
   }
   
   .button-primary:hover {
     background-color: white;
     color: #5F5D9C;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
   }
   
   .button-secondary {
     border: 2px solid #5F5D9C;
     color: #5F5D9C;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
   }
   
   .button-secondary:hover {
@@ -92,7 +108,11 @@
   }
   
   .button-link {
-    color: white;
+    color: #5F5D9C;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
   }
   
   .button-link:hover {
@@ -110,7 +130,7 @@
   }
   
   .features-list {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
   
   .icon-check {
@@ -119,6 +139,9 @@
     height: 16px;
     width: 16px;
   }
+   .sr-only{
+    list-style: none;
+   }
   
   .footer {
     background-color: #5F5D9C;
@@ -131,3 +154,11 @@
     font-size: 0.875rem;
   }
   
+  .myIcon{
+    text-decoration: none;
+  }
+
+  .headerIcon{
+    display: flex;
+    align-items: flex-end;
+  }

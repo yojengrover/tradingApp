@@ -44,10 +44,11 @@ export default function Component() {
   return (
     <>
       <header className="header">
-        <a href="#">
+        <div className='headerIcon'>
+        <a href="#" className='myIcon'>
           <MountainIcon className="icon" />
-          <span className="sr-only">Crypto Trading App</span>
         </a>
+        </div>
         <div className="header-text">
           <h1 className="title">Crypto Trading App</h1>
           <p className="subtitle">Revolutionize your trading experience.</p>
@@ -84,10 +85,7 @@ export default function Component() {
               <CheckIcon className="icon-check" />
               Competitive fees and fast withdrawals
             </li>
-            <li>
-              <CheckIcon className="icon-check" />
-              24/7 customer support
-            </li>
+            
           </ul>
         </div>
       </main>
